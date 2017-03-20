@@ -1,0 +1,45 @@
+#insert-shape {
+    text-align: center;
+}
+
+#shape-box {
+    height: 600px;
+    width: 600px;
+    background-color: olivedrab;
+    float: left;
+}
+
+#sidepanel {
+    height: 600px;
+    width: 600px;
+    background-color: darkgray;
+    float: right;
+}
+
+.rec {
+    width: 200px;
+	height: 100px;
+	background: dodgerblue;
+}
+
+.sq {
+    width: 100px;
+	height: 100px;
+	background: firebrick;
+}
+
+.tri {
+    width: 0;
+	height: 0;
+	border-top: 100px solid yellow;
+	border-left: 100px solid transparent;
+}
+
+.cir {
+    width: 100px;
+	height: 100px;
+	background: mediumpurple;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
